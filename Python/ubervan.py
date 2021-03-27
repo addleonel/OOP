@@ -3,16 +3,16 @@ from driver import Driver
 
 class UberVan(Car):
     __type_car_accepted: list
-    __seats_materials: list
+    __seat_materials: list
 
-    def __init__(self, id: int, license: str, driver: Driver, type_car_accepted: list, seats_materials: list):
+    def __init__(self, id: int, license: str, driver: Driver, type_car_accepted: list, seat_materials: list):
         super(UberVan, self).__init__(id, license, driver)
         self.__type_car_accepted = type_car_accepted
-        self.__seats_materials = seats_materials
+        self.__seat_materials = seat_materials
     
     def print_data(self):
         super(UberVan, self).print_data()
-        print(f'Type car accepted: {self.__type_car_accepted}, Seats materials: {self.__seats_materials}')
+        print(f'Type car accepted: {self.__type_car_accepted}, Seats materials: {self.__seat_materials}')
 
     @property
     def get_ubervan_passengers(self):
@@ -32,9 +32,9 @@ class UberVan(Car):
         self.__type_car_accepted = value
 
     @property
-    def get_seats_materials(self):
-        return self.__seats_materials
+    def get_seat_materials(self):
+        return self.__seat_materials
     
-    @get_seats_materials.setter
-    def set_seats_materials(self, value):
-        self.__seats_materials = value
+    @get_seat_materials.setter
+    def set_seat_materials(self, value):
+        self.__seat_materials = value
