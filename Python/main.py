@@ -16,8 +16,8 @@ if __name__ == '__main__':
     my_car.print_data()
 
     # With passengers
-    thomas_car.passengers = 4
-    my_car.passengers = 5
+    thomas_car.set_passengers = 4
+    my_car.set_passengers = 5
 
     thomas_car.print_data()
     my_car.print_data()
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     thomas_uberx.print_data()
     my_uberx.print_data()
 
-    thomas_uberx.uberx_passengers = 3
+    thomas_uberx.set_uberx_passengers = 3
     thomas_uberx.print_data()
 
     # thomas_uber_pool = UberPool(1, 'FTM45', thomas, 2, 'Ferrari', 'Roma')

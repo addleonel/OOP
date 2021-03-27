@@ -14,16 +14,16 @@ class Car:
         self.__passengers = passengers
 
     def print_data(self):
-        message = f'Id: {self.__id}, License: {self.__license}, Driver: {self.__driver.name}, '
+        message = f'Id: {self.__id}, License: {self.__license}, Driver: {self.__driver.get_name}, '
         if self.__passengers:
             message += f'Passengers: {self.__passengers}'
         print(message)
 
     @property
-    def passengers(self):
+    def get_passengers(self):
         return self.__passengers
         
-    @passengers.setter
-    def passengers(self, value):
+    @get_passengers.setter
+    def set_passengers(self, value):
         assert value >= 0, '\'value\' must not be negative'
         self.__passengers = value
