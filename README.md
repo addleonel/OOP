@@ -1,4 +1,6 @@
 ## OOP (Object Oriented Programming)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/OOP.svg/1280px-OOP.svg.png)
+
 Object Oriented Programming is a programming paradigm based on the concept of "objects", which can contain data and code: 
 ### What does the OOP solve?
 
