@@ -23,10 +23,11 @@ Object Oriented Programming is a programming paradigm based on the concept of "o
     - **Polymorphism**
 
 ### Object-Oriented Programming Languages:
-- Java 
+- Java
+- C++ 
 - PHP 
 - Python 
 - JavaScript 
-- C #
+- C#
 - Ruby
-- Kotlin, etc
+- Kotlin, [etc](https://en.wikipedia.org/wiki/Object-oriented_programming#OOP_languages)
