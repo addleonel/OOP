@@ -1,4 +1,6 @@
 ## OOP (Object Oriented Programming)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/OOP.svg/1280px-OOP.svg.png)
+
 Object Oriented Programming is a programming paradigm based on the concept of "objects", which can contain data and code: 
 ### What does the OOP solve?
 
@@ -21,12 +23,12 @@ Object Oriented Programming is a programming paradigm based on the concept of "o
     - **Polymorphism**
 
 ### Object-Oriented Programming Languages:
-- Java 
+- Java
+- C++ 
 - PHP 
 - Python 
 - JavaScript 
 - C#
 - Ruby
-- Kotlin
 - C++
-- 
+- Kotlin, [etc](https://en.wikipedia.org/wiki/Object-oriented_programming#OOP_languages)
