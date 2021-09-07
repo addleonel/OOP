@@ -25,6 +25,8 @@ Object Oriented Programming is a programming paradigm based on the concept of "o
 - PHP 
 - Python 
 - JavaScript 
-- C #
+- C#
 - Ruby
-- Kotlin, etc
+- Kotlin
+- C++
+- 
