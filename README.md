@@ -30,4 +30,4 @@ Object Oriented Programming is a programming paradigm based on the concept of "o
 - C#
 - Ruby
 - C++
-- Kotlin, [etc](https://en.wikipedia.org/wiki/Object-oriented_programming#OOP_languages)
+- Kotlin, [etc](https://en.wikipedia.org/wiki/List_of_object-oriented_programming_languages)
